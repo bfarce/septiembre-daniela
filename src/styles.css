@@ -62,6 +62,13 @@
   --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-ring: var(--sidebar-ring);
+  --color-paper: var(--paper);
+  --color-paper-deep: var(--paper-deep);
+  --color-rose-soft: var(--rose-soft);
+  --color-rose-ink: var(--rose-ink);
+  --color-gold: var(--gold);
+  --color-sage: var(--sage);
+  --color-ink-soft: var(--ink-soft);
 }
 
 :root {
@@ -92,13 +99,6 @@
   --gold: oklch(0.7 0.1 82);
   --sage: oklch(0.72 0.045 137);
   --ink-soft: oklch(0.43 0.028 48);
-  --color-paper: var(--paper);
-  --color-paper-deep: var(--paper-deep);
-  --color-rose-soft: var(--rose-soft);
-  --color-rose-ink: var(--rose-ink);
-  --color-gold: var(--gold);
-  --color-sage: var(--sage);
-  --color-ink-soft: var(--ink-soft);
   --chart-1: oklch(0.646 0.222 41.116);
   --chart-2: oklch(0.6 0.118 184.704);
   --chart-3: oklch(0.398 0.07 227.392);
