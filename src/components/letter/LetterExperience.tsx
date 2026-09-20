@@ -91,7 +91,7 @@ function Cover({ onEnter }: { onEnter: () => void }) {
         <h1 className="font-serif text-[clamp(3.25rem,9vw,7.8rem)] leading-[0.94] text-foreground">{content.cover.title}</h1>
         <p className="mx-auto mt-7 max-w-xl text-base font-light leading-7 text-muted-foreground sm:text-lg">{content.cover.subtitle}</p>
         <Button onClick={onEnter} className="mt-10 h-14 rounded-full border border-primary/20 bg-primary px-9 text-sm uppercase tracking-[0.18em] text-primary-foreground shadow-xl transition-transform hover:scale-[1.03] hover:bg-primary/90">
-          {content.cover.cta} <span aria-hidden="true">💌</span>
+          {content.cover.cta} <Mail aria-hidden="true" />
         </Button>
       </motion.div>
       <p className="font-hand text-xl text-muted-foreground">hecho despacio, para ti</p>
